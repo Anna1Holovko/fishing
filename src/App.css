@@ -1,0 +1,471 @@
+.App {
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mainI {
+    width: 100%;
+    height: 30%;
+    opacity: 0.7;
+    left:0 ;
+    top: 0;
+    position: absolute;
+  }
+  .inst {
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    right: 10%;
+    top: 2%;
+  }
+  .gmail {
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    right: 20%;
+    top: 2%;
+  }
+  .topory {
+    font-size: 17pt;
+    font-family: Rubik;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: black;
+    font-weight: bold;
+    /*width: 5%;*/
+    /*height: 223px;*/
+    /*left: 5%;*/
+    /*top: 207px;*/
+    /*font-style: normal;*/
+    /*line-height: 76px;*/
+  }
+  .catalog {
+    font-size: 17pt;
+    font-family: Rubik;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: black;
+  }
+  .axe {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 40%;
+  }
+  .axeCaption{
+    top: 40%;
+  }
+  .hammer {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 91%;
+  }
+  .screw {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 142%;
+  }
+  .reel {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 193%;
+  }
+  .GreenBlockText {
+    position: absolute;
+    color: black;
+    font-family: Monaco;
+    width: 100%;
+    height: 50%;
+    left: 2%;
+    right: 2%;
+    top: 247%;
+    /*position: absolute;*/
+    /*width: 708px;*/
+    /*height: 280px;*/
+    /*left: 96px;*/
+    /*top: 2068px;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-size: 24px;*/
+    /*line-height: 28px;*/
+    /*color: #000000;*/
+  }
+  .GreenBlock {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 244%;
+    background: #37433E;
+    opacity: 0.7;
+    /*position: absolute;*/
+    /*width: 900px;*/
+    /*height: 570px;*/
+    /*left: 0px;*/
+    /*top: 1936px;*/
+  }
+  .GreyBlock {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 294%;
+    background: #A7B0B8;
+    opacity: 0.7;
+  }
+
+  .GreyBlockText {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Monaco;
+    width: 100%;
+    height: 50%;
+    left: 2%;
+    right: 2%;
+    top: 297%;
+    text-align: center;
+    font-weight: bold;
+    /*position: absolute;*/
+    /*width: 290px;*/
+    /*height: 42px;*/
+    /*left: 1205px;*/
+    /*top: 1968px;*/
+    /*font-family: Monaco;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-size: 36px;*/
+    /*line-height: 42px;*/
+    /*color: #FFFFFF;*/
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+  /*.axe{*/
+  /*  position: absolute;*/
+  /*  width: 50%;*/
+  /*  height: 50%;*/
+  /*  left: 10%;*/
+  /*  top: 105%;*/
+  /*  opacity: 0.7;*/
+  /*}*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*.axe{*/
+  /*  position: absolute;*/
+  /*  width: 20%;*/
+  /*  height: 30em;*/
+  /*  left: 14%;*/
+  /*  top: 105%;*/
+  /*  opacity: 0.7;*/
+  /*}*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+  .mainI {
+    width: 100%;
+    height: 90%;
+    opacity: 0.7;
+    left:0 ;
+    top: 0;
+    position: absolute;
+  }
+  .inst {
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    right: 10%;
+    top: 2%;
+  }
+  .gmail {
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    right: 20%;
+    top: 2%;
+  }
+  .topory {
+    font-size: 64pt;
+    font-family: Rubik;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: black;
+    font-weight: bold;
+    /*width: 5%;*/
+    /*height: 223px;*/
+    /*left: 5%;*/
+    /*top: 207px;*/
+    /*font-style: normal;*/
+    /*line-height: 76px;*/
+  }
+  .catalog {
+    font-size: 24pt;
+    font-family: Rubik;
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    color: black;
+  }
+  .axe {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 10%;
+    top: 100%;
+  }
+  .axeCaption{
+    /*top: 40%;*/
+  }
+  .hammer {
+    position: absolute;
+    width: 39%;
+    height: 50%;
+    left: 31%;
+    top: 100%;
+  }
+  .screw {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 71%;
+    top: 100%;
+  }
+  .reel {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    left: 31%;
+    top: 151%;
+  }
+  .GreenBlockText {
+    position: absolute;
+    color: black;
+    font-family: Monaco;
+    width: 100%;
+    height: 50%;
+    left: 2%;
+    right: 2%;
+    top: 212%;
+    /*position: absolute;*/
+    /*width: 708px;*/
+    /*height: 280px;*/
+    /*left: 96px;*/
+    /*top: 2068px;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-size: 24px;*/
+    /*line-height: 28px;*/
+    /*color: #000000;*/
+  }
+  .GreenBlock {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0;
+    top: 210%;
+    background: #37433E;
+    opacity: 0.7;
+    /*position: absolute;*/
+    /*width: 900px;*/
+    /*height: 570px;*/
+    /*left: 0px;*/
+    /*top: 1936px;*/
+  }
+  .GreyBlock {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0;
+    top: 210%;
+    background: #A7B0B8;
+    opacity: 0.7;
+  }
+
+  .GreyBlockText {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Monaco;
+    width: 100%;
+    height: 50%;
+    left: 75%;
+    /*right: 2%;*/
+    top: 212%;
+    /*text-align: right;*/
+    font-weight: bold;
+    /*position: absolute;*/
+    /*width: 290px;*/
+    /*height: 42px;*/
+    /*left: 1205px;*/
+    /*top: 1968px;*/
+    /*font-family: Monaco;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-size: 36px;*/
+    /*line-height: 42px;*/
+    /*color: #FFFFFF;*/
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {*/
+/*  .mainI {*/
+/*    width: 100%;*/
+/*    height: 90%;*/
+/*    opacity: 0.7;*/
+/*    left:0 ;*/
+/*    top: 0;*/
+/*    position: absolute;*/
+/*  }*/
+/*  .inst {*/
+/*    position: absolute;*/
+/*    width: 2.5em;*/
+/*    height: 2.5em;*/
+/*    right: 10%;*/
+/*    top: 2%;*/
+/*  }*/
+/*  .gmail {*/
+/*    position: absolute;*/
+/*    width: 2.5em;*/
+/*    height: 2.5em;*/
+/*    right: 20%;*/
+/*    top: 2%;*/
+/*  }*/
+/*  .topory {*/
+/*    font-size: 64pt;*/
+/*    font-family: Rubik;*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    left: 10%;*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*    !*width: 5%;*!*/
+/*    !*height: 223px;*!*/
+/*    !*left: 5%;*!*/
+/*    !*top: 207px;*!*/
+/*    !*font-style: normal;*!*/
+/*    !*line-height: 76px;*!*/
+/*  }*/
+/*  .catalog {*/
+/*    font-size: 24pt;*/
+/*    font-family: Rubik;*/
+/*    position: absolute;*/
+/*    top: 95%;*/
+/*    left: 10%;*/
+/*    color: black;*/
+/*  }*/
+/*  .axe {*/
+/*    position: absolute;*/
+/*    width: 20%;*/
+/*    height: 60%;*/
+/*    left: 10%;*/
+/*    top: 100%;*/
+/*  }*/
+/*  .axeCaption{*/
+/*    !*top: 40%;*!*/
+/*  }*/
+/*  .hammer {*/
+/*    position: absolute;*/
+/*    width: 39%;*/
+/*    height: 50%;*/
+/*    left: 31%;*/
+/*    top: 100%;*/
+/*  }*/
+/*  .screw {*/
+/*    position: absolute;*/
+/*    width: 20%;*/
+/*    height: 50%;*/
+/*    left: 71%;*/
+/*    top: 100%;*/
+/*  }*/
+/*  .reel {*/
+/*    position: absolute;*/
+/*    width: 60%;*/
+/*    height: 50%;*/
+/*    left: 31%;*/
+/*    top: 151%;*/
+/*  }*/
+/*  .GreenBlockText {*/
+/*    position: absolute;*/
+/*    color: black;*/
+/*    font-family: Monaco;*/
+/*    width: 100%;*/
+/*    height: 50%;*/
+/*    left: 2%;*/
+/*    right: 2%;*/
+/*    top: 212%;*/
+/*    !*position: absolute;*!*/
+/*    !*width: 708px;*!*/
+/*    !*height: 280px;*!*/
+/*    !*left: 96px;*!*/
+/*    !*top: 2068px;*!*/
+/*    !*font-style: normal;*!*/
+/*    !*font-weight: normal;*!*/
+/*    !*font-size: 24px;*!*/
+/*    !*line-height: 28px;*!*/
+/*    !*color: #000000;*!*/
+/*  }*/
+/*  .GreenBlock {*/
+/*    position: absolute;*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*    left: 0;*/
+/*    top: 210%;*/
+/*    background: #37433E;*/
+/*    opacity: 0.7;*/
+/*    !*position: absolute;*!*/
+/*    !*width: 900px;*!*/
+/*    !*height: 570px;*!*/
+/*    !*left: 0px;*!*/
+/*    !*top: 1936px;*!*/
+/*  }*/
+/*  .GreyBlock {*/
+/*    position: absolute;*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*    right: 0;*/
+/*    top: 210%;*/
+/*    background: #A7B0B8;*/
+/*    opacity: 0.7;*/
+/*  }*/
+
+/*  .GreyBlockText {*/
+/*    position: absolute;*/
+/*    color: #FFFFFF;*/
+/*    font-family: Monaco;*/
+/*    width: 100%;*/
+/*    height: 50%;*/
+/*    left: 75%;*/
+/*    !*right: 2%;*!*/
+/*    top: 212%;*/
+/*    !*text-align: right;*!*/
+/*    font-weight: bold;*/
+/*    !*position: absolute;*!*/
+/*    !*width: 290px;*!*/
+/*    !*height: 42px;*!*/
+/*    !*left: 1205px;*!*/
+/*    !*top: 1968px;*!*/
+/*    !*font-family: Monaco;*!*/
+/*    !*font-style: normal;*!*/
+/*    !*font-weight: normal;*!*/
+/*    !*font-size: 36px;*!*/
+/*    !*line-height: 42px;*!*/
+/*    !*color: #FFFFFF;*!*/
+/*  }*/
+/*}*/
+
+
